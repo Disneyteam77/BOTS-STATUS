@@ -5,7 +5,7 @@
     "telegram",
     "best"
   ],
-  "repository": "https://github.com/disneyteam76/BOTS-STATUS/tree/master",
+  "repository": "https://github.com/disneyteam76/BOTS-STATUS/tree/main",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
