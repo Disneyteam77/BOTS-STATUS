@@ -1,0 +1,77 @@
+{
+  "name": "BOTS-STATUS",
+  "description": "The Telegram bot that can check bot working or not updated every 1hour.",
+  "keywords": [
+    "telegram",
+    "best"
+  ],
+  "repository": "https://github.com/disneyteam76/BOTS-STATUS/tree/master",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "user_session_string": {
+      "description": "Your string session.",
+      "value": ""
+    },
+    "api_id": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "api_hash": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "update_channel": {
+      "description": "The id of a channel to which i need to send the current status",
+      "value": ""
+    },
+    "status_message_id": {
+      "description": "Give the id of messagw which need to be edited you can give more than one id and separt with space",
+      "value": ""
+    },
+    "bots": {
+      "description": "list of bot usernames without @ ",
+      "value": "",
+      "required": false
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
